@@ -1,0 +1,13 @@
+Package: tv
+Title: TV package
+Version: 1.0
+Description: R package to read and analyze television audiance data
+Depends: R (>= 3.5.1), data.table, readr
+License: GP2
+Encoding: UTF-8
+LazyData: true
+Author: Rafael Luechinger
+Maintainer: Rafael Luechinger <Rafael.Luechinger@mediapulse.ch>
+Imports: data.table
+RoxygenNote: 6.1.1
+

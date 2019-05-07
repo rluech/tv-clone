@@ -1,0 +1,4 @@
+# ignore DLC backup files
+*.r~
+.DS_Store
+access*
