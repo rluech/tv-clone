@@ -68,6 +68,11 @@ t2s <- function(x){
 #' @rdname util_conv
 #' @export
 #' 
+
+# An Alternative, not yet benchmarked, can be extended to turn x > 84000 into days
+# s2t <- function(x) # x <- 3 + (7 * 60) + (15 * 3600) # 15:07:03
+#   sprintf("%02d:%02d:%02d", x %%86400%/%3600, x %%3600%/%60, x %%60%/%1)
+
 s2t <- function(x, as = 't')
 { 
   x <- round(x)
